@@ -1,0 +1,158 @@
+.home {
+  background-color: #f3f2fd;
+  transition: all 0.3s;
+}
+
+.home-top-wrapper {
+  background-color: #fff !important;
+  padding: 50px 0;
+}
+
+.home-top {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.home-top h1 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.89px;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.home-top p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: #000000;
+}
+
+.home-bottom-wrapper {
+  padding: 50px 0;
+}
+
+.home-bottom {
+  max-width: 1035px;
+  min-height: 529px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 30px #6611d010;
+}
+.home-bottom-left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 24px;
+  padding: 25px 30px;
+}
+
+.home-bottom-left-header {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.line-group {
+  display: flex;
+  gap: 4px;
+}
+
+.line-group span {
+  width: 33px;
+  height: 5px;
+  background-color: #e7e4fa;
+}
+
+.line-group span:first-child {
+  background-color: #624ce0;
+}
+.header-title h2 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.form-group {
+  padding: 10px 0;
+}
+
+.form-group form {
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  position: relative;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 10px;
+}
+.form-field-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 0 12px;
+  border-radius: 8px;
+  border: 1px solid #c7c7c7;
+}
+.form-field input,
+textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
+.form-field textarea {
+  height: 78px;
+  padding: 8px 0;
+  resize: none;
+}
+
+.form-group button {
+  transform: translateX(280px);
+  width: 125px;
+}
+
+.home-bottom-right {
+  flex: 1;
+  background-color: #f3f2fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  padding: 20px;
+}
+.home-bottom-right img {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .home-top {
+    padding: 0 20px;
+  }
+  .home-bottom {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .form-group button {
+    transform: translateX(0);
+    width: 100%;
+  }
+  .home-bottom-left {
+    width: 100%;
+  }
+  .home-bottom-right {
+    width: 100%;
+    border-radius: 8px;
+  }
+  .home-bottom-right img {
+    width: 100%;
+  }
+}
