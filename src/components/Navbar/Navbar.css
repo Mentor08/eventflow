@@ -146,7 +146,7 @@
     position: absolute;
     top: 70px;
     left: 0;
-    background-color: rgba(178, 178, 237, 0.3);
+    background-color: rgb(178, 178, 237);
     width: 100%;
     padding: 10px 0;
     text-align: center;
