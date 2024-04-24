@@ -134,12 +134,12 @@
 .toggle-icon {
   font-size: 24px;
 }
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1025px) {
   .navbar {
     padding: 15px 1em;
   }
-
+}
+@media screen and (max-width: 768px) {
   .navbar-links {
     display: none;
     flex-direction: column;

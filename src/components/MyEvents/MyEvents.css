@@ -187,9 +187,15 @@
   line-height: 18.2px;
   color: #212121;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1025px) {
   .subtitles {
     padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .subtitles {
     flex-direction: column;
   }
   .myEvent-bottom-left,
